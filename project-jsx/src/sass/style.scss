@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+
+
+section{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 747px;
+    background-color: #e3eeff;
+
+    .main-box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 500px;
+        height: 500px;
+        border-radius: 25px;
+        background-color: #8887c5;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+        .form-box{
+            width: 90%;
+            height: 450px;
+
+            .title{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                height: 50px;
+
+                h1{
+                    color: white;
+                    font-size: 40px;
+                    font-family: 'Caveat', cursive;
+                }
+            }
+
+            .form{
+                width: 100%;
+                height: 400px;
+
+                .first-inputs{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    width: 100%;
+                    height: 60px;
+
+                    input{
+                        width: 200px;
+                        height: 40px;
+                        border-radius: 10px;
+                        border: none;
+                        &:focus{
+                            outline: none;
+                        }
+                    }
+                }
+
+                .email{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    height: 60px;
+
+                    input{
+                        width: 425px;
+                        height: 40px;
+                        border-radius: 10px;
+                        border: none;
+                        &:focus{
+                            outline: none;
+                        }
+                    }
+                }
+
+                .password{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    height: 60px;
+
+                    input{
+                        width: 425px;
+                        height: 40px;
+                        border-radius: 10px;
+                        border: none;
+                        &:focus{
+                            outline: none;
+                        }
+                    }
+                }
+
+                .confirm-pass{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    height: 60px;
+
+                    input{
+                        width: 425px;
+                        height: 40px;
+                        border-radius: 10px;
+                        border: none;
+                        &:focus{
+                            outline: none;
+                        }
+                    }
+                }
+
+                .accept{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    height: 40px;
+
+                    label{
+                        margin-left: 10px;
+                    }
+                }
+
+                .button{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    height: 60px;
+
+                    button{
+                        width: 300px;
+                        height: 40px;
+                        border: none;
+                        border-radius: 10px;
+                        cursor: pointer;
+                        color: white;
+                        font-size: 16px;
+                        background-color: #213555;
+                    }
+                }
+
+                .signIn{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    height: 50px;
+
+                    a{
+                        text-decoration: none;
+                    }
+
+                    span{
+                        cursor: pointer;
+                        color: darkslateblue;
+                        font-weight: 700;
+                        font-size: 20px;
+                        margin-left: 5px;
+                        &:hover{
+                            text-decoration:underline;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .error-firstname{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        background-color: yellow;
+    }
+
+    .error-lastname{
+        position: absolute;
+        top: 20px;
+        left: 0px;
+        background-color: yellow;
+    }
+
+    .error-email{
+        position: absolute;
+        top: 40px;
+        left: 0px;
+        background-color: yellow;
+    }
+
+    .error-password{
+        position: absolute;
+        top: 60px;
+        left: 0px;
+        background-color: yellow;
+    }
+
+    .error-confirmpassword{
+        position: absolute;
+        top: 80px;
+        left: 0px;
+        background-color: yellow;
+    }
+
+    .error-terms{
+        position: absolute;
+        top: 100px;
+        left: 0px;
+        background-color: yellow;
+    }
+}

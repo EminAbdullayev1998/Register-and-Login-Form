@@ -1,0 +1,22 @@
+{
+  "accounts": [
+    {
+      "firstName": "Emin",
+      "lastName": "Abdullayev",
+      "email": "emin.abdullayev.1998@gmail.com",
+      "password": "salamemin12345",
+      "confirmPassword": "salamemin12345",
+      "acceptTerms": true,
+      "id": 1
+    },
+    {
+      "firstName": "Suleyman",
+      "lastName": "Abdullayev",
+      "email": "kirijok265@themesw.com",
+      "password": "salam12345",
+      "confirmPassword": "salam12345",
+      "acceptTerms": true,
+      "id": 2
+    }
+  ]
+}
